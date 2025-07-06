@@ -11,7 +11,7 @@ public class ProductController {
 	
 	@GetMapping("/{id}")
 	public String getProduct(@PathVariable String id) {
-		return "Product fetched with id: " + id;
+		return "Product fetched with id: " + id; 
 	} 
 
 }
